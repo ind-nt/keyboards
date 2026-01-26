@@ -1,7 +1,7 @@
 Indigenous NT Integrated Keyboard
 =====================
 
-Author: Rajiv Rawat
+Author: Rajiv Rawat/ILS
 
 __DESCRIPTION__
 This is the Keyman edition of an universal keyboard for the official languages of the Northwest Territories. It retains the standard US keyboard layout while providing access to special characters and diacritics through the right-Alt or right-Option key. The mobile version provides an extra keyboard layer accessed through the Alt key as well as the longpress popup method on the default keyboard layers.
@@ -9,7 +9,7 @@ This is the Keyman edition of an universal keyboard for the official languages o
 Links
 -----
 
- * Contact:  ecelanguages@gmail.com
+ * Contact:  Indigenous Languages Secretariat « indigenous_languages@gov.nt.ca »
  
 Supported Platforms
 -------------------
@@ -19,5 +19,6 @@ Supported Platforms
  * Mobile Web
  * iOS
  * Android
+
 
 
