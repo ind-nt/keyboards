@@ -4,7 +4,7 @@ Indigenous NT Keyboard Change History
 4.0.7 (1 Dec 2025)
 -----------------
 
-* Added prompting keys to enable Windows 11 uptake
+* Updated Keyboard Image
 
 4.0.6 (2025-02-20)
 ------------------
@@ -62,4 +62,5 @@ Indigenous NT Keyboard Change History
 -----------------
 
 * Ported to Keyman from MSKLC.
+
 
