@@ -8,7 +8,7 @@ store(&TARGETS) 'any'
 store(&BITMAP) 'indigenous_nt.ico'
 store(&VISUALKEYBOARD) 'indigenous_nt.kvks'
 store(&LAYOUTFILE) 'indigenous_nt.keyman-touch-layout'
-store(&COPYRIGHT) '(c) Rajiv Rawat'
+store(&COPYRIGHT) '(c) Rajiv Rawat/ILS'
 store(&KMW_EMBEDCSS) 'keyboard.css'
 begin Unicode > use(main)
 begin NewContext > use(NewContext)
@@ -19,12 +19,6 @@ store(&HOTKEY) 'Ctrl+Shift+N'
 begin Unicode > use(main)
 
 group(main) using keys
-
-// ------------------------------------------------------------------
-// 1. PRIMING RULE: Activate TSF context on any keypress
-//    This ensures modifiers like RALT are recognized immediately
-// ------------------------------------------------------------------
-any(AnyKey) > index(AnyKey, 1)  // Pass through all keys, but "touch" context
 
 // ------------------------------------------------------------------
 // 2. ALtGr LAYER — Use RALT consistently
@@ -173,4 +167,5 @@ group(detectStartOfSentence) readonly
     any(sentencePunctuation) '  ' > layer('shift')
     
     nomatch > layer('default')
+
 
