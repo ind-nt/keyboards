@@ -9,7 +9,7 @@ This is the Keyman edition of an universal keyboard for the official languages o
 Links
 -----
 
- * Contact:  Indigenous Languages Secretariat « indigenous_languages@gov.nt.ca »
+ * Contact:  indigenous_languages@gov.nt.ca
  
 Supported Platforms
 -------------------
@@ -19,6 +19,7 @@ Supported Platforms
  * Mobile Web
  * iOS
  * Android
+
 
 
 
