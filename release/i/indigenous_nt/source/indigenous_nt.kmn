@@ -14,14 +14,10 @@ begin Unicode > use(main)
 begin NewContext > use(NewContext)
 begin PostKeystroke > use(PostKeystroke)
 
-// Ensure Keyman loads early and stays active
-store(&HOTKEY) 'Ctrl+Shift+N'
-begin Unicode > use(main)
-
 group(main) using keys
 
 // ------------------------------------------------------------------
-// 2. ALtGr LAYER — Use RALT consistently
+// 2. ALtGr LAYER
 // ------------------------------------------------------------------
 
 + [RALT K_SPACE] > ' '
@@ -167,5 +163,6 @@ group(detectStartOfSentence) readonly
     any(sentencePunctuation) '  ' > layer('shift')
     
     nomatch > layer('default')
+
 
 
